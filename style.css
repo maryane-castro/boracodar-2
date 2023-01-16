@@ -1,0 +1,18 @@
+body{
+    background-color: #D9CDF7;
+
+}
+
+main{
+    display: flex;
+    
+
+}
+
+.box{
+    margin: auto;
+    background-color: red;
+    padding: 30px;
+    
+}
+
