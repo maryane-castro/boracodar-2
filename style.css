@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     background-color: #D9CDF7;
 
@@ -5,14 +10,84 @@ body{
 
 main{
     display: flex;
-    
+    place-content: center;
+    align-items: center;
+    height: 100vh;
 
 }
 
 .box{
-    margin: auto;
-    background-color: red;
-    padding: 30px;
+
+    /*border: 4px solid lightcoral;*/
+    padding: 0px;
     
+}
+
+
+
+
+/*sofa*/
+
+#sofa{
+    padding: 15px;
+}
+
+.box .botao{
+    display: flex;
+    align-items: center;
+    justify-content: right;    
+
+}
+
+#sofa button{
+    border: none;
+    background: none;
+}
+
+.box #sofa{
+    display: inline-block;
+    position: relative;
+}
+
+.box > .botao > button{
+    cursor: pointer;
+    position:absolute;
+    top:39%;
+    left:51.3%;
+    transform:translate3d(-50%, -50%, 0);
+}
+
+
+
+
+
+
+
+/*info*/
+#info h1{
+    margin: 12px 0px 12px 0px;
+    font-size: 32px;
+    color: #271A45;
+}
+
+#info #codido{
+    font-size: 10px;
+    color: #271A45;
+}
+
+#info #preco{
+    font-size: 16px;
+    opacity: 67%;
+    color: #271A45;
+}
+
+
+
+#info button{
+    padding: 10px;
+    border-radius: 999px;
+    border: .1px solid black;
+    background: none;
+    margin-top: 20px;
 }
 
