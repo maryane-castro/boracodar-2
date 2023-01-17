@@ -15,3 +15,4 @@ function trocar(){
     currentImgIndex++; // incrementa a nossa referencia
 
 }
+
