@@ -5,6 +5,7 @@
 
 body{
     background-color: #D9CDF7;
+    background-attachment: fixed;
 
 }
 
@@ -32,12 +33,7 @@ main{
     padding: 15px;
 }
 
-.box .botao{
-    display: flex;
-    align-items: center;
-    justify-content: right;    
 
-}
 
 #sofa button{
     border: none;
@@ -47,6 +43,14 @@ main{
 .box #sofa{
     display: inline-block;
     position: relative;
+}
+
+
+.box .botao{
+    display: flex;
+    align-items: center;
+    justify-content: right;    
+
 }
 
 .box > .botao > button{
@@ -96,6 +100,42 @@ main{
 
 
 
-@media(width: 450px){
+@media(max-width: 690px){
+    *{
+        padding: 0px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        height: auto;
+    }
+    #sofa{
+        padding: 0px;
+        padding-top: 40px;
+    }
+
+    #info{
+        padding: 0px;
+        padding-top: 80px;
+    }
+
     
+    .box .botao{
+        display: flex;
+        align-items: center;
+        justify-content: right;    
+
+    }
+
+    .box > .botao > button{
+        cursor: pointer;
+        position:absolute;
+        top:9%;
+        left:85%;
+        transform:translate3d(-50%, -50%, 0);
+    }
+
+   
+
 }
