@@ -3,13 +3,14 @@
 var currentImgIndex=1;
 var sv=0;
 var ImgSrcArray = [ //caminho das suas imgs aqui
-"margo2_rose.jpg",
-"sofar.gif"
+"https://media.giphy.com/media/y150nYfRoZ4Z3qBOOI/giphy.gif",
+"img/sofa-margo2_rose.jpg",
+
 ];
 
 var ImgArray= [
-  "Vector (Stroke).png",
-  "Vector.png",
+  "img/360.png",
+  "img/x.png",
   
 
 ];
