@@ -8,20 +8,19 @@ var ImgSrcArray = [ //caminho das suas imgs aqui
 ];
 
 var ImgArray= [
-  "Vector.png",
   "Vector (Stroke).png",
+  "Vector.png",
+  
 
 ];
 
 function trocar(){
-  if(currentImgIndex == ImgArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
+  if(sv == ImgArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
   {
     
     sv=0;
   }
   document.getElementById("360").src=ImgArray[sv];
-  
-    
     sv++;
  
 
@@ -29,12 +28,11 @@ function trocar(){
   {
     
     currentImgIndex=0;
-    sv=0;
+    
   }
-  document.getElementById("360").src=ImgArray[sv];
   document.getElementById("image").src=ImgSrcArray[currentImgIndex];
     currentImgIndex++; 
-    sv++;
+
 }
 
 
