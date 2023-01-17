@@ -11,7 +11,8 @@ function trocar(){
   {
     currentImgIndex=0;
   }
-  document.getElementById("image").src=ImgSrcArray[currentImgIndex]; //altera a img do elemento "agni" de acordo com o indice
+  document.getElementById("image").src=ImgSrcArray[currentImgIndex];
+  document.getElementById("sgvt").sv//altera a img do elemento "agni" de acordo com o indice
     currentImgIndex++; // incrementa a nossa referencia
 
 }
