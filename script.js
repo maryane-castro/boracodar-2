@@ -14,7 +14,15 @@ var ImgArray= [
 ];
 
 function trocar(){
-
+  if(currentImgIndex == ImgArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
+  {
+    
+    sv=0;
+  }
+  document.getElementById("360").src=ImgArray[sv];
+  
+    
+    sv++;
  
 
   if(currentImgIndex == ImgSrcArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
