@@ -90,6 +90,12 @@ main{
     margin-top: 20px;
 }
 
+#info button:hover{
+    cursor: pointer;
+}
+
+
+
 @media(width: 450px){
     
 }
