@@ -132,7 +132,7 @@ main{
         cursor: pointer;
         position:absolute;
         top:9%;
-        left:85%;
+        left:90%;
         transform:translate3d(-50%, -50%, 0);
     }
 
