@@ -62,7 +62,6 @@ main{
 
 
 
-
 /*info*/
 #info h1{
     margin: 12px 0px 12px 0px;
@@ -91,3 +90,6 @@ main{
     margin-top: 20px;
 }
 
+@media(width: 450px){
+    
+}
