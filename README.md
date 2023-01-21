@@ -1,7 +1,6 @@
-# boracodar-2
- desafio bora codar 2
+# DESAFIO "BORACODAR-1"
 
 ##
 
-acesse:
+Veja:
 https://maryane-castro.github.io/boracodar-2/
